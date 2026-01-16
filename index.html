@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Food Supply Request</title>
+</head>
+<body>
+  <h1>Food Supply Request</h1>
+  <p>If you need food assistance, please fill out the form below.</p>
+
+  <form>
+    <label>
+      Zip Code:
+      <input type="text" name="zip" required />
+    </label>
+    <br /><br />
+
+    <label>
+      Food Needed:
+      <select name="food">
+        <option value="produce">Fresh Produce</option>
+        <option value="grains">Grains</option>
+        <option value="protein">Protein</option>
+        <option value="dairy">Dairy</option>
+        <option value="other">Other</option>
+      </select>
+    </label>
+    <br /><br />
+
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
